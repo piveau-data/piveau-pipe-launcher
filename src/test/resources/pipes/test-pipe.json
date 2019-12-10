@@ -1,0 +1,26 @@
+{
+  "header": {
+    "id": "",
+    "name": "test1",
+    "title": "Test Pipe",
+    "context": "JUnit5 Tests",
+    "transport": "payload",
+    "version": "1.0"
+  },
+  "body": {
+    "segments": [
+      {
+        "header": {
+          "name": "test-segment",
+          "segmentNumber": 1,
+          "title": "Test 1",
+          "processed": false
+        },
+        "body": {
+          "config": {
+          }
+        }
+      }
+    ]
+  }
+}
